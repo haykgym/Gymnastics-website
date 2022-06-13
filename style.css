@@ -1,0 +1,87 @@
+body {
+  min-width: 1300px;
+  background-image: url("img/nkar2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  width: 100%;
+  background-color: #cfe6be;
+  display: flex;
+  justify-content: space-around;
+}
+.main .header a {
+  color: black;
+  text-decoration: none;
+}
+
+.header1 a:hover {
+  font-size: 18px;
+}
+.header2 {
+  display: inline-block;
+  position: relative;
+}
+.header2 h4 {
+  cursor: pointer;
+}
+.ul {
+  width: 150px;
+  position: absolute;
+  top: 26px;
+  background-color: #cfe6be;
+  border-radius: 5%;
+  padding: 5px;
+  list-style-type: none;
+  z-index: 1;
+  display: none;
+}
+li {
+  color: #997be3;
+}
+.header2 h4:hover {
+  color: #730017;
+  text-shadow: 1px 1px;
+}
+.h4:hover .ul {
+  display: block;
+}
+.main1 {
+  height: 200px;
+  position: relative;
+}
+.main1 h3 {
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  font-size: 24px;
+}
+.nkar1 {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 140px;
+}
+.icons {
+  width: 400px;
+  height: 250px;
+  margin: 10px auto 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons a {
+  align-self: center;
+}
+.icons a:hover {
+  opacity: 0.5;
+}
+.text {
+  position: relative;
+}
+.text p {
+  position: absolute;
+  left: 300px;
+  font-size: 24px;
+  color: #1f3040;
+}

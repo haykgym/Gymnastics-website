@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Միանալ</title>
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<div class="main">
+			<div class="header header1"><a href="../index.html"><h1>Գլխավոր</h1></a></div>
+			<div class="header header2">
+				<div class="h4">
+					<h4>Գործունեություն</h4>
+					<ul class="ul">
+						<a href="federation.html"><li class="li li1">Ֆեդերացիա</li></a><br>
+						<a href="azaryan.html"><li class="li li2">Ալբերտ Ազարյան</li></a><br>
+						<a href="team.html"><li class="li li3">ՀՀ հավաքական</li></a><br>
+					</ul>
+				</div>
+			</div>
+			<div class="header header3"><a href="coach.html"><h4>Մարզիչներ</h4></a></div>
+			<div class="header header4"><a href="gymnast.html"><h4>Մարզիկներ</h4></a></div>
+			<div class="header header5"><a href="news.html"><h4>Նորություններ</h4></a></div>
+			<div class="header header6"><a href="login.html"><h4>Միանալ</h4></a></div>
+			<div class="header header7"><a href="contact.html"><h4>Հետադարձ կապ</h4></a></div>
+	</div>
+	<form>
+		<div class="regcont">
+			<div class="reg reg1">
+				<h2>Գրանցվել</h2>
+			</div>
+			<div class="reg reg2">
+				<input type="text" name="fname" id="fname" placeholder="Անուն" style="width:280px;height:30px;">
+				<input type="text" name="lname" id="lname" placeholder="Ազգանուն"style="width:280px;height:30px;"><br>
+			</div>
+			<div class="reg reg3">
+				<label for="male">Արական</label>
+				<input type="radio" id="male" name="gender" value="male"><br>
+				<label for="female">Իգական</label>
+				<input type="radio" id="female" name="gender" value="female">
+			</div>
+			<div class="reg reg4">
+				<label for="bday">Ծննդյան ամսաթիվ</label><br>	
+				<input type="date" id="bday" name="bday"><br>
+			</div>
+			<div class="reg reg5">
+				<label for="sport">Մարզաձև</label><br>
+				<select id="sport" name="masnaget">
+					<option value="">-..-</option>
+					<option value="Artistic Gymnastics">Սպորտային մարմնամարզություն</option>
+					<option value="Rythmic Gymnastics">Գեղարվեստական մարմնամարզություն</option>
+					<option value="Trampoline">Բատուտ</option>
+				</select>
+			</div>
+			<div class="reg reg6"><br>
+				<input type="email" id="email" name="email" placeholder="Էլ.փոստ" style="width:570px; height:30px"><br><br>
+				<input type="text" name="login" id="login" placeholder="Մուտքանուն" style="width:570px; height:30px"><br><br>
+				<input type="password" name="password" id="password" placeholder="Գաղտնաբառ" style="width:570px; height:30px"><br><br>
+				<input type="password" name="password" id="password" placeholder="Կրկնել գաղտնաբառը" style="width:570px; height:30px"><br>
+			</div>
+			<div class="reg reg7"><br>
+				<input type="submit" value="Հաստատել" onclick="alert('Դուք հաջողությամբ գրանցվեցիք')">
+			</div>
+		</div>
+	</form>
+	<div class="logcont">
+		<form>
+			<div class="log1">
+				<input type="text" id="login" name="login" placeholder="Մուտքանուն" style="width:450px;height:40px"><br><br>
+			</div>
+			<div class="log2">
+				<input type="password" name="password" id="password" placeholder="Գաղտնաբառ" style="width:450px;height:40px"><br><br>
+			</div>
+			<div class="log3">
+				<button type="button">Մուտք</button>
+			</div><hr>
+			<div class="log4">
+				<i><a href="#">Վերականգնել գաղտնաբառը</a></i>
+			</div>
+		</form>	
+	</div>
+	<div class="end">
+			<div><img src="../img/nkar1.jpg" alt="nkar1">
+			<h1><strong>WE ARE <br> GYMNASTICS!</strong></h1>
+			<h4>GYMNASTICS.SPORT</h4>
+	</div>
+</body>
+</html>
